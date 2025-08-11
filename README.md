@@ -42,20 +42,23 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 
 ### NC-News(https://andrew-l-nc-news.netlify.app/)
 NC News App is a front-end web app that fetches dynamic content from a custom backend. Hosted on Netlify, it used modern libaries and frameworks to deliver a responsive, user-friendly experience.  
-**Tech-stack:** React, Vite, HTML, CSS, API, Material UI
+**Tech-stack:** React, Vite, HTML, CSS, API, Material UI  
+[View Repo](https://github.com/AndrewLau97/nc-news)
 
 
 ---
 
 ### Tailgotchi(https://tailgotchi.netlify.app/)
 Tailgotchi is an interactive app that makes dog care fun and collaborative. Users can track tasks like feeding, walking, and vet visits, and share pet profiles with family or caretakers to keep everyone in sync.  
-**Tech-stack:** React, Supabase, TypeScript, Tailwind
+**Tech-stack:** React, Supabase, TypeScript, Tailwind  
+[View Repo](https://github.com/AndrewLau97/TailGotchi)
 
 ---
 
 ### MonsterJagers(https://monsterjagers.netlify.app/)
 This text-based RPG was inspired by my first coding project on freeCodeCamp. I expanded it to include additional features such as mana, experience leveling, an elemental-based combat system, a more detailed storyline, and visual health bars to represent current and remaining health.  
 **Tech-stack:** React, Vite, HTML, CSS, JavaScript, Supabase
+[View Repo](https://github.com/AndrewLau97/MonsterJagers)
 
 ---
 
