@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <div id="about" className="pb-24">
-        <Space spaceNeeded="h-30"/>
+        <Space spaceNeeded="h-25"/>
         <div className="border-1 border-border lg:mx-30 rounded-3xl hover:border-1 hover:border-mutedorange hover:shadow-lg hover:shadow-mutedorange/10 transition-transform duration-300 ease-in-out hover:-translate-y-1">
           <AboutMe />
           <TechStack />

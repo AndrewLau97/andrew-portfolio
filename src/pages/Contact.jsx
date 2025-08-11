@@ -1,6 +1,29 @@
+import { useState } from "react";
 import Space from "../components/Space";
+import { ClipboardDocumentCheckIcon } from "@heroicons/react/20/solid";
+import { ClipboardDocumentIcon } from "@heroicons/react/20/solid";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber]=useState("");
+  const [message, setMessage]=useState("")
+  const user = "kahoulau97";
+  const domain = "@gmail.com";
+  const [copied, setCopied] = useState(false);
+  function copyEmail() {
+    navigator.clipboard.writeText(user + domain);
+    setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 2000);
+  }
+  function submitForm() {
+    setName("")
+    setEmail("")
+    setPhoneNumber("")
+    setMessage("")
+  }
   return (
     <>
       <div id="contact">
@@ -8,22 +31,31 @@ const Contact = () => {
         <div className="my-4 mx-auto py-24 flex justify-center lg:mx-30 rounded-3xl">
           <div className="max-w-4xl py-10 px-10 rounded-xl bg-lightgrey">
             <div className="flex justify-center pb-5">
-            <h1>Contact Me</h1>
+              <h1 className="text-3xl font-bold">Contact Me</h1>
             </div>
             <div className="pb-5">
-              <p>
-                If you would like to email me directly, my email address is
-                kahoulau97@gmail.com
-              </p>
-              <p>
-                Or if you prefer, you can use the contact form below to send a
-                message instead.
-              </p>
+              <div>
+                <p className="inline">
+                  Feel free to connect with me for collaborations or
+                  opportunities — fill out the form below and I'll get back to
+                  you soon. If you prefer a more direct approach, you can email
+                  me at {" " + user + domain}.{" "}
+                  {copied ? (
+                    <ClipboardDocumentCheckIcon className="h-6 w-6 border-1 border-checkgreen rounded-xs inline mb-1" />
+                  ) : (
+                    <ClipboardDocumentIcon
+                      className="h-6 w-6 border-1 border-border rounded-xs hover:border-mutedorange hover:shadow-lg hover:shadow-mutedorange/10 rounded-sm hover:cursor-pointer inline mb-1"
+                      onClick={copyEmail}
+                    />
+                  )}
+                </p>
+              </div>
             </div>
             <form
               action="https://api.web3forms.com/submit"
               method="POST"
               className="space-y-4"
+              onSubmit={submitForm}
             >
               <input
                 type="hidden"
@@ -41,6 +73,8 @@ const Contact = () => {
                   placeholder="Your Name"
                   required
                   className="w-full p-1 mt-1 bg-mutedwhite text-charcoal rounded-xs"
+                  value={name}
+                  onChange={(e)=>setName(e.target.value)}
                 />
               </div>
               <div className="flex-1">
@@ -54,6 +88,8 @@ const Contact = () => {
                   placeholder="Your Email Address"
                   required
                   className="w-full p-1 mt-1 bg-mutedwhite text-charcoal rounded-xs"
+                  value={email}
+                  onChange={(e)=>setEmail(e.target.value)}
                 />
               </div>
               <div className="flex-1">
@@ -66,6 +102,8 @@ const Contact = () => {
                   id="phone"
                   placeholder="Your Phone Number (optional)"
                   className="w-full p-1 mt-1 bg-mutedwhite text-charcoal rounded-xs"
+                  value={phoneNumber}
+                  onChange={(e)=>setPhoneNumber(e.target.value)}
                 />
               </div>
               <div className="flex-1">
@@ -79,6 +117,8 @@ const Contact = () => {
                   placeholder="Write your message here"
                   className="w-full p-1 mt-1 bg-mutedwhite text-charcoal rounded-xs"
                   required
+                  value={message}
+                  onChange={(e)=>setMessage(e.target.value)}
                 ></textarea>
               </div>
               <input
@@ -86,7 +126,14 @@ const Contact = () => {
                 name="redirect"
                 value="https://web3forms.com/success"
               ></input>
-              <button type="submit">Send Message</button>
+              <div className="flex justify-end">
+                <button
+                  type="submit"
+                  className="bg-mutedgrey text-darkslate hover:text-charcoal px-2 rounded-3xl hover:bg-grey hover:cursor-pointer hover:border-1 hover:border-mutedorange border-1 border-mutedgrey"
+                >
+                  Send Message
+                </button>
+              </div>
             </form>
           </div>
         </div>

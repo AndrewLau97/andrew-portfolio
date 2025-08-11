@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@fontsource/space-grotesk": "^5.2.8",
+    "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.1.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.7.1",
+    "scroll-into-view": "^1.16.2",
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {

@@ -1,10 +1,12 @@
 const AboutMe = () => {
   return (
     <>
-      <div className="max-w-4xl my-4 mx-auto">
-        <h1>About Me</h1>
-        <p className="font-poppins">
-          I'm Ka Hou Lau but I go by Andrew. I am a Junior Software Developer
+      <div className="max-w-4xl my-4 lg:mx-auto mx-10">
+        <div className="flex justify-center">
+          <h1 className="text-3xl font-bold">About Me</h1>
+        </div>
+        <p className="pt-5">
+          I am a Junior Software Developer
           currently based in the UK, planning to relocate to Hanoi, Vietnam. I
           have recently completed a JavaScript Bootcamp at{" "}
           <a
@@ -31,6 +33,7 @@ const AboutMe = () => {
           development. I am eager to contribute while growing my skills in a
           supportive environment.
         </p>
+        <p>For more information about my experience or CV, feel free to contact me below.</p>
       </div>
     </>
   );
