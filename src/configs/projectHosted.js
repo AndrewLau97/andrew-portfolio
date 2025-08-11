@@ -2,7 +2,7 @@ const projectHosted = {
   ncNews: {
     name: "NC News",
     weblink: "https://andrew-l-nc-news.netlify.app/",
-    info: "NC News App is a front-end web app that fetches dynamic content from a custom backend. Hosted on Netlify, it used modern libaries and frameworks to deliver a responsive, user-friendly experience",
+    info: "NC News App is a front-end web app that fetches dynamic content from a custom backend. Hosted on Netlify, it used modern libaries and frameworks to deliver a responsive, user-friendly experience.",
     techStack: ["React", "Vite", "HTML", "CSS", "API", "Material UI"],
   },
   tailgotchi: {

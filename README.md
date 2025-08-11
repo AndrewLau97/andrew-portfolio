@@ -1,12 +1,64 @@
-# React + Vite
+# Andrew Lau | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+-[Overview](#overview)  
+-[Live Demo](#live-demo)  
+-[Features](#features)  
+-[Built With](#built-with)  
+-[Projects](#projects)  
+-[Contact](#contact)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Overview
+This is my personal portfolio website showcasing my projects, skills, and experience. It includes an About Me section, a gallery of my work, and a contact form
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Live Demo
+[View my portfolio](link here)
+
+---
+
+## Features
+- Responsive design for mobile  
+- Smooth animations and transitions  
+- Project showcase with images and descriptions  
+- Contact form with form validation  
+
+---
+
+## Built With
+-[React](https://reactjs.org/)  
+-[Tailwind CSS](https://tailwindcss.com/)  
+-[Vite](https://vitejs.dev/)  
+-[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+-[Heroicons](https://heroicons.com/)  
+
+---
+
+## Projects
+
+### NC-News(https://andrew-l-nc-news.netlify.app/)
+NC News App is a front-end web app that fetches dynamic content from a custom backend. Hosted on Netlify, it used modern libaries and frameworks to deliver a responsive, user-friendly experience.  
+**Tech-stack:** React, Vite, HTML, CSS, API, Material UI
+
+
+---
+
+### Tailgotchi(https://tailgotchi.netlify.app/)
+Tailgotchi is an interactive app that makes dog care fun and collaborative. Users can track tasks like feeding, walking, and vet visits, and share pet profiles with family or caretakers to keep everyone in sync.  
+**Tech-stack:** React, Supabase, TypeScript, Tailwind
+
+---
+
+### MonsterJagers(https://monsterjagers.netlify.app/)
+This text-based RPG was inspired by my first coding project on freeCodeCamp. I expanded it to include additional features such as mana, experience leveling, an elemental-based combat system, a more detailed storyline, and visual health bars to represent current and remaining health.  
+**Tech-stack:** React, Vite, HTML, CSS, JavaScript, Supabase
+
+---
+
+## Contact
+kahoulau97@gmail.com  
+-[LinkedIn](https://www.linkedin.com/in/ka-hou-lau-andrew-lau/)
