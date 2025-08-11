@@ -57,7 +57,7 @@ Tailgotchi is an interactive app that makes dog care fun and collaborative. User
 
 ### MonsterJagers(https://monsterjagers.netlify.app/)
 This text-based RPG was inspired by my first coding project on freeCodeCamp. I expanded it to include additional features such as mana, experience leveling, an elemental-based combat system, a more detailed storyline, and visual health bars to represent current and remaining health.  
-**Tech-stack:** React, Vite, HTML, CSS, JavaScript, Supabase
+**Tech-stack:** React, Vite, HTML, CSS, JavaScript, Supabase  
 [View Repo](https://github.com/AndrewLau97/MonsterJagers)
 
 ---
