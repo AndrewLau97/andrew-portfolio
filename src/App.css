@@ -3,7 +3,6 @@
 @import "@fontsource/space-grotesk/700.css";
 @theme {
   --color-darkslate:#121212;
-  /* used */
   --color-lightwhite: #f5f5f5;
   --color-mutedwhite:#e0e0e0;
   --color-mutedorange:#ff7f50;

@@ -11,7 +11,7 @@ const ProjectCard = ({ projectName, projectList }) => {
           >
             <div className=" flex justify-center">
               <img
-                src={`/${projectName}.png`}
+                src={`${projectName}.png`}
                 className="w-100 h-50 border-2 rounded-3xl"
               />
             </div>
