@@ -4,10 +4,10 @@ import { ClipboardDocumentCheckIcon } from "@heroicons/react/20/solid";
 import { ClipboardDocumentIcon } from "@heroicons/react/20/solid";
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phoneNumber, setPhoneNumber]=useState("");
-  const [message, setMessage]=useState("")
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [phoneNumber, setPhoneNumber]=useState("");
+  // const [message, setMessage]=useState("")
   const user = "kahoulau97";
   const domain = "@gmail.com";
   const [copied, setCopied] = useState(false);
@@ -18,12 +18,12 @@ const Contact = () => {
       setCopied(false);
     }, 2000);
   }
-  function submitForm() {
-    setName("")
-    setEmail("")
-    setPhoneNumber("")
-    setMessage("")
-  }
+  // function submitForm() {
+  //   setName("")
+  //   setEmail("")
+  //   setPhoneNumber("")
+  //   setMessage("")
+  // }
   return (
     <>
       <div id="contact">
@@ -55,7 +55,7 @@ const Contact = () => {
               action="https://api.web3forms.com/submit"
               method="POST"
               className="space-y-4"
-              onSubmit={submitForm}
+              // onSubmit={submitForm}
             >
               <input
                 type="hidden"
@@ -73,8 +73,8 @@ const Contact = () => {
                   placeholder="Your Name"
                   required
                   className="w-full p-1 mt-1 bg-mutedwhite text-charcoal rounded-xs"
-                  value={name}
-                  onChange={(e)=>setName(e.target.value)}
+                  // value={name}
+                  // onChange={(e)=>setName(e.target.value)}
                 />
               </div>
               <div className="flex-1">
@@ -88,8 +88,8 @@ const Contact = () => {
                   placeholder="Your Email Address"
                   required
                   className="w-full p-1 mt-1 bg-mutedwhite text-charcoal rounded-xs"
-                  value={email}
-                  onChange={(e)=>setEmail(e.target.value)}
+                  // value={email}
+                  // onChange={(e)=>setEmail(e.target.value)}
                 />
               </div>
               <div className="flex-1">
@@ -102,8 +102,8 @@ const Contact = () => {
                   id="phone"
                   placeholder="Your Phone Number (optional)"
                   className="w-full p-1 mt-1 bg-mutedwhite text-charcoal rounded-xs"
-                  value={phoneNumber}
-                  onChange={(e)=>setPhoneNumber(e.target.value)}
+                  // value={phoneNumber}
+                  // onChange={(e)=>setPhoneNumber(e.target.value)}
                 />
               </div>
               <div className="flex-1">
@@ -117,8 +117,8 @@ const Contact = () => {
                   placeholder="Write your message here"
                   className="w-full p-1 mt-1 bg-mutedwhite text-charcoal rounded-xs"
                   required
-                  value={message}
-                  onChange={(e)=>setMessage(e.target.value)}
+                  // value={message}
+                  // onChange={(e)=>setMessage(e.target.value)}
                 ></textarea>
               </div>
               <input
