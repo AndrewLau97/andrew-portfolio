@@ -60,7 +60,24 @@ This text-based RPG was inspired by my first coding project on freeCodeCamp. I e
 **Tech-stack:** React, Vite, HTML, CSS, JavaScript, Supabase  
 [View Repo](https://github.com/AndrewLau97/MonsterJagers)
 
----
+---  
+
+### QuestTogether(https://qteventplanner.netlify.app/)
+A community-focused event management platform designed to simplify creating, organizing, and discovering events. The website allows users to:  
+Admin Control - Admin is able to approve organiser status as well as demote members.  
+Create Events – Easily set up and publish events with details, images, and categories.  
+Responsive Design – Accessible on desktop and mobile for smooth user experience.  
+**Tech-stack:** React, Vite, HTML, CSS, JavaScript  
+[View Repo](https://github.com/AndrewLau97/Event-Planner)  
+
+--- 
+
+### SpringwaterCantonese(https://springwater.netlify.app/)  
+A modern website created for Springwater Cantonese Restaurant, focused on simplicity and ease of use. The design adapts seamlessly across devices, ensuring a smooth browsing experience whether on desktop, tablet, or mobile. It presents the restaurant’s menu and essential information in a clean, accessible format.  
+**Tech-stack:** React, Vite, HTML, CSS, JavaScript  
+[View Repo](https://github.com/AndrewLau97/SpringWater)  
+
+--- 
 
 ## Contact
 kahoulau97@gmail.com  
