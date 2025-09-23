@@ -17,6 +17,18 @@ const projectHosted = {
     info: "This text-based RPG was inspired by my first coding project on freeCodeCamp. I expanded it to include additional features such as mana, experience leveling, an elemental-based combat system, a more detailed storyline, and visual health bars to represent current and remaining health.",
     techStack: ["React", "Vite", "HTML", "CSS", "JavaScript", "Supabase"],
   },
+  qtEventPlanner: {
+    name: "Quest Together",
+    weblink: "https://qteventplanner.netlify.app/",
+    info: "A community-driven event management website that makes it simple to create, organize, and discover events. Designed with a focus on usability and engagement, it helps connect people through shared activities while offering smooth tools for event planning and participation.",
+    techStack: ["React", "Vite", "HTML", "CSS", "JavaScript", "Supabase"],
+  },
+  springwaterWebsite: {
+    name: "Springwater Cantonese",
+    weblink: "https://springwater.netlify.app/",
+    info: "A website for a Chinese restaurant, designed to present the menu, share images of the cuisine, and provide essential contact and location details in a clean, responsive layout.",
+    techStack: ["React", "Vite", "HTML", "CSS", "JavaScript"],
+  },
 };
 
 export default projectHosted;
