@@ -32,9 +32,8 @@ const projectHosted = {
   weatherApp:{
     name:"WeatherAppAL",
     weblink:"https://weatherappal.netlify.app",
-    info:"",
+    info:"A fast and responsive Weather App built with React, Vite, and the Open-Meteo API. It provides real-time and forecast weather information with a modern, minimalist interface.",
     techStack:["React", "Vite", "HTML", "CSS", "JavaScript", "Axios","Open-Meteo API", "Swiper.js"]
-
   },
 
 };
