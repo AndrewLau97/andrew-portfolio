@@ -27,8 +27,16 @@ const projectHosted = {
     name: "Springwater Cantonese",
     weblink: "https://springwater.netlify.app/",
     info: "A website for a Chinese restaurant, designed to present the menu, share images of the cuisine, and provide essential contact and location details in a clean, responsive layout.",
-    techStack: ["React", "Vite", "HTML", "CSS", "JavaScript"],
+    techStack: ["React", "Vite", "HTML", "CSS", "JavaScript", "Swiper.js"],
   },
+  weatherApp:{
+    name:"WeatherAppAL",
+    weblink:"https://weatherappal.netlify.app",
+    info:"",
+    techStack:["React", "Vite", "HTML", "CSS", "JavaScript", "Axios","Open-Meteo API", "Swiper.js"]
+
+  },
+
 };
 
 export default projectHosted;
