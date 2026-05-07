@@ -46,7 +46,7 @@ const Homepage = () => {
           </div>
           <div className="md:my-10 md:w-1/2 sm:my-4 mx-auto p-10">
             <img
-              src="profilePicture.JPG"
+              src="portfolioProfilePicture.webp"
               className="lg:w-lg mx-auto rounded-full w-sm"
             ></img>
           </div>
